@@ -16,14 +16,26 @@ header {
 
 nav {
     text-align: center;
-    color: black;
+    color: #1F4F66;
 }
 
 nav li {
     display: inline;
     margin: 0 0 0 30px;
 }
-  	
+
+nav button {
+    display: inline;
+    position: absolute;
+    left: 970px;
+    top: 8px;
+    width: 90px;
+    border: 2px solid #1F4F66;
+    border-radius: 4px;
+    color: white;
+    background-color: #1F4F66 ;
+}
+	
 .container {
     display: flex;
     justify-content: center;
@@ -46,4 +58,61 @@ nav li {
     position: absolute;
     top: 90px;
     left: 990px;
+}
+
+h1 {
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    font-size: 20px;
+    color: #F4A52E;
+}
+
+h2 {
+    display: flex;
+    position: absolute;
+    top: 220px;
+    left: 450px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1F4F66;
+}
+
+h3 {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 450px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F4A52E;
+}
+
+.botao {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 420px;
+    left: 450px;
+    gap: 15px;
+}
+
+.esquerdo {
+    width: 6%;
+    padding: 5px;
+    border: 2px solid #1F4F66;
+    border-radius: 4px;
+    color: white;
+    background-color: #1F4F66 ;
+}
+
+.direito {
+    width: 6%;
+    padding: 5px;
+    border: 2px solid #1F4F66;
+    border-radius: 4px;
+    color: #1F4F66;
 }

@@ -116,3 +116,43 @@ h3 {
     border-radius: 4px;
     color: #1F4F66;
 }
+
+.faixa {
+    display: flex;
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    top: 580px;
+    left: 383px;
+}
+
+
+
+.imagens {
+    display: flex;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 590px;
+    left: 390px;
+    padding: 0 140px;
+    gap: 150px;
+}
+
+ .clientes {
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 390px;
+    padding: 0 170px;
+    gap: 150px;
+}
+
+.clientes strong {
+    color: #FED017;
+    padding: 6px;
+}
+
+.clientes p {
+    color: white;
+}

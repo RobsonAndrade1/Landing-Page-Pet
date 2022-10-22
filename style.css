@@ -217,3 +217,58 @@ h3 {
     color: white;
     background-color: #1F4F66 ;
 }
+
+.rodape {
+    display: flex;
+    position: absolute;
+    width: 60%;
+    height: 25%;
+    top: 1220px;
+    left: 383px;
+}
+
+.cao-gato {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    height: 15%;
+    top: 1270px;
+    left: 500px;
+}
+
+.horarios {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    top: 1270px;
+    left: 760px;
+}
+
+.lista-horarios {
+    list-style: none;
+    color: white;
+}
+
+.hora {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contato {
+    display: flex;
+    position: absolute;
+    width: 320px;
+    top: 1270px;
+    left: 1150px;
+}
+ .lista-contato {
+    list-style: none;
+    color: white;
+ }
+
+ .endereco {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+ }

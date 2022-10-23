@@ -14,6 +14,7 @@ header {
     padding: 10px 0;
 }
 
+
 nav {
     text-align: center;
     color: #1F4F66;
@@ -22,6 +23,7 @@ nav {
 nav li {
     display: inline;
     margin: 0 0 0 30px;
+    cursor: pointer;
 }
 
 nav button {
@@ -34,6 +36,7 @@ nav button {
     border-radius: 4px;
     color: white;
     background-color: #1F4F66 ;
+    cursor: pointer;
 }
 	
 .container {
@@ -108,6 +111,7 @@ h3 {
     border-radius: 4px;
     color: white;
     background-color: #1F4F66 ;
+    cursor: pointer;
 }
 
 .direito {
@@ -116,6 +120,7 @@ h3 {
     border: 2px solid #1F4F66;
     border-radius: 4px;
     color: #1F4F66;
+    cursor: pointer;
 }
 
 .faixa {
@@ -216,6 +221,7 @@ h3 {
     border-radius: 4px;
     color: white;
     background-color: #1F4F66 ;
+    cursor: pointer;
 }
 
 .rodape {

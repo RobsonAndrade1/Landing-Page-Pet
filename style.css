@@ -51,7 +51,7 @@ nav button {
 
 .caixa {
     width: 60%;
-    height: 500px;
+    height: 460px;
     position: absolute;
     top: 80px;
     left: 383px;
@@ -123,12 +123,152 @@ h3 {
     cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.branco-oferecemos {
+    width: 60%;
+    height: 490px;
+    position: absolute;
+    top: 540px;
+    left: 383px;
+}
+
+h4{
+    position: absolute;
+    top: 560px;
+    left: 760px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1F4F66;
+  }
+
+  .pets-oferecemos {
+    width: 300px;
+    position: absolute;
+    top: 620px;
+    left: 790px;
+  }
+
+  .conteudo{
+    position: absolute;
+    top: 740px;
+    left: 520px;
+     
+  }
+  
+  .conteudo2{
+    position: absolute;
+    top: 740px;
+    left: 1110px;
+  }
+
+  .titulo {
+    font-size: 18px;
+  }
+
+  .conteudo2 .titulo {
+    padding-left: 40px;
+  }
+  
+  .texto::after{
+    content: "1";
+    background-color: #F4A52E;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 10px; 
+    margin-left: 10px;
+  }
+  
+  .texto1::after{
+    content: "2";
+    background-color: #2C566C;
+    border-radius: 80%;
+    font-size: 25px;
+    padding: 10px; 
+    margin-left: 10px;
+   
+  }
+  
+  .texto2::after{
+    content: "3"; 
+    background-color: #F4A52E;
+    border-radius: 50%;
+    font-size: 25px; 
+    padding: 10px; 
+    margin-left: 10px;  
+  }
+  
+  .texto3::before{
+    content: "4";
+    background-color: #2C566C;
+    border-radius: 80%;
+    font-size: 25px;
+    padding: 10px; 
+    margin-right: 10px; 
+  }
+  
+  .texto4::before{
+    content: "5";
+    background-color: #F4A52E;
+    border-radius: 80%;
+    font-size: 25px;
+    padding: 10px; 
+    margin-right: 10px;
+  }
+  
+  .texto5::before{
+    content: "6";
+    background-color: #2C566C;
+    border-radius: 80%;
+    font-size: 25px;
+    padding: 10px;  
+    margin-right: 10px;
+  }
+   
+ 
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
 .faixa {
     display: flex;
     position: absolute;
     width: 60%;
     height: 20%;
-    top: 580px;
+    top: 1030px;
     left: 383px;
 }
 
@@ -137,7 +277,7 @@ h3 {
     position: absolute;
     width: 10%;
     height: 10%;
-    top: 590px;
+    top: 1040px;
     left: 390px;
     padding: 0 140px;
     gap: 150px;
@@ -146,7 +286,7 @@ h3 {
  .clientes {
     display: flex;
     position: absolute;
-    top: 700px;
+    top: 1150px;
     left: 390px;
     padding: 0 170px;
     gap: 150px;
@@ -165,13 +305,13 @@ h3 {
     width: 60%;
     height: 450px;
     position: absolute;
-    top: 770px;
+    top: 1210px;
     left: 383px;
 }
 
 .titulo-servicos {
     position: absolute;
-    top: 790px;
+    top: 1230px;
     left: 820px;
     text-transform: uppercase;
     font-weight: bold;
@@ -183,7 +323,7 @@ h3 {
 	width: 960px;
     display: flex;
     position: absolute;
-    top: 860px;
+    top: 1300px;
     left: 483px;
 }
 
@@ -204,7 +344,7 @@ h3 {
 	width: 110%;
 }
 
-.servicos h5 {
+.servicos h6 {
 	font-size: 30px;
 	font-weight: bold;
 }
@@ -229,7 +369,7 @@ h3 {
     position: absolute;
     width: 60%;
     height: 25%;
-    top: 1220px;
+    top: 1660px;
     left: 383px;
 }
 
@@ -238,7 +378,7 @@ h3 {
     position: absolute;
     width: 12%;
     height: 15%;
-    top: 1270px;
+    top: 1710px;
     left: 500px;
 }
 
@@ -246,7 +386,7 @@ h3 {
     display: flex;
     position: absolute;
     width: 320px;
-    top: 1270px;
+    top: 1710px;
     left: 760px;
 }
 
@@ -265,7 +405,7 @@ h3 {
     display: flex;
     position: absolute;
     width: 320px;
-    top: 1270px;
+    top: 1710px;
     left: 1150px;
 }
  .lista-contato {

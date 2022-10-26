@@ -46,7 +46,7 @@ nav button {
 
 .imagem-fundo {
     width: 70%;
-    height: 2500px;
+    height: 2860px;
 }
 
 .caixa {
@@ -331,6 +331,11 @@ h4{
     width: 100%;
 }
 
+.servicos h6 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
 .servicos li {
 	display: inline-block;
 	text-align: center;
@@ -344,9 +349,10 @@ h4{
 	width: 110%;
 }
 
-.servicos h6 {
-	font-size: 30px;
-	font-weight: bold;
+.servicos h7 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F4A52E ;
 }
 
 .servicos-descricao {
@@ -360,21 +366,39 @@ h4{
     border: 2px solid #1F4F66;
     border-radius: 4px;
     color: white;
-    background-color: #1F4F66 ;
+    background-color: #1F4F66;
     cursor: pointer;
+}
+
+.caramelo {
+    width: 60%;
+    height: 470px;
+    position: absolute;
+    top: 1660px;
+    left: 383px;
+}
+
+.alergia p {
+    position: absolute;
+    top: 1830px;
+    left: 430px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #F4A52E;
 }
 
 .pata {
     width: 60%;
     height: 460px;
     position: absolute;
-    top: 1660px;
+    top: 2130px;
     left: 383px;
 }
 
 .testemunho {
     position: absolute;
-    top: 1690px;
+    top: 2150px;
     left: 840px;
     text-transform: uppercase;
     font-weight: bold;
@@ -391,7 +415,7 @@ h4{
     width: 960px;
     display: flex;
     position: absolute;
-    top: 1780px;
+    top: 2250px;
     left: 550px;
 }
 
@@ -402,6 +426,19 @@ h4{
 	vertical-align: top;
 	margin: 0 1.3%;
 	padding: 30px 20px;
+    box-sizing: border-box;
+    border: #fff;
+}
+
+.pessoas li:hover {
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.pessoas h8 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F4A52E;
 }
 
 .rodape {
@@ -409,7 +446,7 @@ h4{
     position: absolute;
     width: 60%;
     height: 25%;
-    top: 2120px;
+    top: 2590px;
     left: 383px;
 }
 
@@ -418,7 +455,7 @@ h4{
     position: absolute;
     width: 12%;
     height: 15%;
-    top: 2180px;
+    top: 2650px;
     left: 500px;
 }
 
@@ -426,7 +463,7 @@ h4{
     display: flex;
     position: absolute;
     width: 320px;
-    top: 2180px;
+    top: 2650px;
     left: 760px;
 }
 
@@ -445,7 +482,7 @@ h4{
     display: flex;
     position: absolute;
     width: 320px;
-    top: 2180px;
+    top: 2650px;
     left: 1150px;
 }
  .lista-contato {

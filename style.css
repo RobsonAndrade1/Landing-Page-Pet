@@ -378,6 +378,12 @@ h4{
     left: 383px;
 }
 
+.video {
+    position: absolute;
+    top: 1800px;
+    left: 1150px;
+}
+
 .alergia p {
     position: absolute;
     top: 1830px;
@@ -386,6 +392,27 @@ h4{
     font-weight: bold;
     font-size: 30px;
     color: #F4A52E;
+}
+
+.alergia strong {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    font-size: 15px;
+    color: black;
+}
+
+.botao-alergia {
+    position: absolute;
+    top: 2030px;
+    left: 435px;
+    width: 10%;
+    padding: 5px;
+    border: 2px solid #1F4F66;
+    border-radius: 4px;
+    color: #1F4F66;
+    cursor: pointer;
 }
 
 .pata {

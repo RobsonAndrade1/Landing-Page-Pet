@@ -123,24 +123,6 @@ h3 {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .branco-oferecemos {
     width: 60%;
     height: 490px;
@@ -157,112 +139,89 @@ h4{
     font-weight: bold;
     font-size: 30px;
     color: #1F4F66;
-  }
+}
 
-  .pets-oferecemos {
+.pets-oferecemos {
     width: 300px;
     position: absolute;
     top: 620px;
     left: 790px;
-  }
+}
 
-  .conteudo{
+.conteudo{
     position: absolute;
     top: 740px;
-    left: 520px;
-     
-  }
+    left: 520px;  
+}
   
-  .conteudo2{
+.conteudo2{
     position: absolute;
     top: 740px;
     left: 1110px;
-  }
+}
 
-  .titulo {
+.titulo {
     font-size: 18px;
-  }
+}
 
-  .conteudo2 .titulo {
+.conteudo2 .titulo {
     padding-left: 40px;
-  }
+}
   
-  .texto::after{
+.texto::after{
     content: "1";
     background-color: #F4A52E;
     border-radius: 50%;
     font-size: 25px;
     padding: 10px; 
     margin-left: 10px;
-  }
+}
   
-  .texto1::after{
+.texto1::after{
     content: "2";
     background-color: #2C566C;
     border-radius: 80%;
     font-size: 25px;
     padding: 10px; 
-    margin-left: 10px;
-   
-  }
+    margin-left: 10px; 
+}
   
-  .texto2::after{
+.texto2::after{
     content: "3"; 
     background-color: #F4A52E;
     border-radius: 50%;
     font-size: 25px; 
     padding: 10px; 
     margin-left: 10px;  
-  }
+}
   
-  .texto3::before{
+.texto3::before{
     content: "4";
     background-color: #2C566C;
     border-radius: 80%;
     font-size: 25px;
     padding: 10px; 
     margin-right: 10px; 
-  }
+}
   
-  .texto4::before{
+.texto4::before{
     content: "5";
     background-color: #F4A52E;
     border-radius: 80%;
     font-size: 25px;
     padding: 10px; 
     margin-right: 10px;
-  }
+}
   
-  .texto5::before{
+.texto5::before{
     content: "6";
     background-color: #2C566C;
     border-radius: 80%;
     font-size: 25px;
     padding: 10px;  
     margin-right: 10px;
-  }
+ }
    
- 
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
 .faixa {
     display: flex;
     position: absolute;
